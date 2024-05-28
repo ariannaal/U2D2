@@ -492,11 +492,11 @@ h1 span {
 }
 
 .contPlus {
-  bottom: 190px;
+  margin-top: 150px;
 }
 
 .contCalendar {
-  bottom: 120px;
+  margin-top: 150px;
 }
 
 .contTag {
@@ -518,6 +518,22 @@ h1 span {
   margin-top: -40px;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  margin: auto;
+  width: 100%;
+}
+
+main {
+  margin-top: 15rem;
+}
+
+
+
+
+
 
 @media screen and (min-width: 700px) {
   .contPlus {
@@ -528,4 +544,10 @@ h1 span {
     top: 220px;
   }
 
+}
+
+@media screen and (max-width: 575px) {
+  main {
+    margin-top: 18rem;
+  }
 }
