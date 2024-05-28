@@ -467,6 +467,37 @@ h1 span {
   box-shadow: 1px 1px 5px #444;
 }
 
+.fa-plus-circle,
+.fa-calendar-week {
+  color: #3f6bca;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contPlus,
+.contCalendar {
+  background-color: rgba(235, 235, 235, 0.886);
+  border-radius: 10px;
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  cursor: pointer;
+  padding: 25px;
+  box-shadow: 1px 1px 5px #444;
+}
+
+.contPlus {
+  bottom: 120px;
+}
+
+.contCalendar {
+  bottom: 190px;
+}
+
+
 @media screen and (max-width: 575px) {
   .novita {
     width: 130px;
