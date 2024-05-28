@@ -435,6 +435,7 @@ h1 {
 
 h1 span {
   position: inherit;
+  z-index: 0;
 }
 
 .imgUnderline {
@@ -444,6 +445,7 @@ h1 span {
   right: 0;
   width: 100%;
   opacity: 0.5;
+  z-index: 1;
 }
 
 .fa-arrow-alt-circle-up {
@@ -504,6 +506,17 @@ h1 span {
     text-transform: uppercase;
     box-shadow: 1px 1px 3px#333;
     border-radius: 1px;
+  }
+
+}
+
+@media screen and (min-width: 700px) {
+  .contPlus {
+    top: 150px;
+  }
+
+  .contCalendar {
+    top: 220px;
   }
 
 }
